@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+.main-body {
+    grid-template-rows: auto;
+}
+
+.header {
+    padding: 10px;
+    background-color: maroon;
+    color: aqua;
+}
+
+.textbox1 {
+    background-color: lightgreen;
+    max-width: 60%;
+    font-size: 2rem;
+    padding: ;
+    text-align: center;
+}
