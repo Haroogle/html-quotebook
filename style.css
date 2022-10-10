@@ -1,23 +1,38 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
-    font-style: normal;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .main-body {
-    grid-template-rows: auto;
+  grid-template-rows: auto;
 }
 
 .header {
-    padding: 10px;
-    background-color: maroon;
-    color: aqua;
+  padding: 10px;
+  background-color: maroon;
+  color: aqua;
 }
-
-.textbox1 {
-    background-color: lightgreen;
-    max-width: 60%;
-    font-size: 2rem;
-    padding: ;
-    text-align: center;
+.title {
+  margin-left: 20%;
+  font-size: 2.5rem;
+  line-height: 2;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.textbox {
+  background-color: lightgreen;
+  max-width: 55%;
+  font-size: 2rem;
+  padding: 20px;
+  text-align: center;
+  margin-left: 20%;
+  margin-bottom: 1.5rem;
+  font-family: "Dosis";
+  border-radius: 10px;
+}
+.source {
+  text-align: right;
+  font-style: italic;
+}
+div.textbox:nth-of-type(odd) {
+  background-color: aquamarine;
 }
